@@ -50,12 +50,6 @@ An AI-powered agricultural technology platform built to assist farmers with data
 
 ---
 
-### 🛒 [Digital Asset Store](https://github.com/VedantKaulgekar/Digital-asset-store)
-A full-stack e-commerce website built as a first-year Project-Based Learning (PBL) assignment.
-
-`PHP` `HTML` `CSS`
-
----
 
 ## 🛠️ Tech Stack
 

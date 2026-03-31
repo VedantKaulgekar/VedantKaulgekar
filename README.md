@@ -85,7 +85,7 @@ A full-stack e-commerce website built as a first-year Project-Based Learning (PB
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
-
+---
 
 ## 📫 Let's Connect
 

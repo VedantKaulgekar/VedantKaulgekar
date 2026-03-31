@@ -17,7 +17,7 @@
 
 ## 👋 About Me
 
-I'm a second-year Engineering student from **Pune, India** passionate about building end-to-end AI systems — from data pipelines and ML models to deployable production applications.
+I'm a third-year Engineering student from **Pune, India** passionate about building end-to-end AI systems — from data pipelines and ML models to deployable production applications.
 
 I enjoy working at the intersection of **machine learning**, **data science**, and **software engineering**, and I'm especially interested in:
 

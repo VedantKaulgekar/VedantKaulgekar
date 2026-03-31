@@ -103,7 +103,7 @@ A full-stack e-commerce website built as a first-year Project-Based Learning (PB
 I'm always open to interesting conversations, collaborations, or opportunities!
 
 - 💼 **LinkedIn:** [linkedin.com/in/vedant-kaulgekar](https://linkedin.com/in/vedant-kaulgekar)
-- 📧 **Email:** *(add your email here)*
+- 📧 **Email:** *vedantkaulgekar.work@gmail.com*
 - 📍 **Location:** Pune, Maharashtra, India
 
 ---

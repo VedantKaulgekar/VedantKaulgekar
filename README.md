@@ -1,96 +1,125 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=120&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a2744&height=120&section=header&text=Vedant%20Kaulgekar&fontSize=42&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
-# Vedant Kaulgekar
+### AI/ML Engineer · Data Scientist · Full-Stack Developer
 
-**AI/ML Engineer · Data Scientist · Full-Stack Developer**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vedant--kaulgekar-0a66c2?style=flat-square&logo=linkedin)](https://linkedin.com/in/vedant-kaulgekar)
+[![GitHub](https://img.shields.io/badge/GitHub-VedantKaulgekar-181717?style=flat-square&logo=github)](https://github.com/VedantKaulgekar)
+[![Email](https://img.shields.io/badge/Email-vedantkaulgekar.work@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vedantkaulgekar.work@gmail.com)
 
-*Building intelligent systems that solve real-world problems*
+*3rd-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vedant-kaulgekar)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VedantKaulgekar)
+*Where machine learning, data science, and software engineering converge.*
 
 </div>
 
 ---
 
-## 👋 About Me
+## 🚀 Flagship Project — Automotive Decision Intelligence Platform
 
-I'm a third-year Engineering student from **Pune, India** passionate about building end-to-end AI systems — from data pipelines and ML models to deployable production applications.
+> **Industrial ML models are black boxes. This platform makes them auditable, uncertain, and explainable.**
 
-I enjoy working at the intersection of **machine learning**, **data science**, and **software engineering**, and I'm especially interested in:
+An end-to-end AI platform for **automotive factory sustainability analytics** — from raw sensor data to regulatory compliance, with uncertainty you can trust.
 
-- 🤖 AutoML, MLOps, and production-grade ML pipelines
-- 🔍 Retrieval-Augmented Generation (RAG) and LLM applications
-- 🌱 AI for sustainability and real-world impact
-- 📊 Data-driven decision intelligence platforms
+```
+┌──────────────────────────────────────────────────────────────────┐
+│  AutoML Pipeline  →  7 candidate models trained in parallel      │
+│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)             │
+│  via ThreadPoolExecutor — best model selected automatically      │
+│                                                                  │
+│  Monte Carlo UQ  →  real sensor noise from datasheets            │
+│  propagated through trained models → P5 / P95 output bounds     │
+│                                                                  │
+│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)      │
+│  grounded strictly in uploaded policy documents                  │
+│                                                                  │
+│  Dashboard  →  Streamlit + Plotly · sensitivity tornado plots    │
+│  PDF export · deployable as web app or native desktop (pywebview)│
+└──────────────────────────────────────────────────────────────────┘
+```
 
----
+| Capability | Details |
+|---|---|
+| Model selection | 7-way parallel AutoML with automatic champion selection |
+| Uncertainty quantification | Monte Carlo — datasheets-grounded sensor noise, P5/P95 bounds |
+| Regulatory Q&A | RAG-powered, strictly document-grounded (no hallucination) |
+| Deployment targets | Streamlit web app **or** native desktop via pywebview |
 
-## 🚀 Featured Projects
-
-### 🚗 [Automotive Decision Intelligence Platform](https://github.com/VedantKaulgekar/Automotive-Decision-Intelligence-Platform)
-An end-to-end AI platform for **automotive factory sustainability analytics**.
-
-- **AutoML** pipeline with parallel training of 7 candidate models (RandomForest, XGBoost, LightGBM, MLP + more) via ThreadPoolExecutor
-- **Monte Carlo uncertainty quantification** — propagates real sensor noise (datasheets-grounded) through trained models, reports P5/P95 bounds
-- **RAG-powered regulatory Q&A** — FAISS vector search + Groq LLM (llama-3.1-8b-instant) grounded strictly in uploaded policy documents
-- **Interactive Streamlit dashboard** with Plotly charts, sensitivity tornado plots, and PDF report export
-- Deployable as a **web app or native desktop application** (pywebview)
+[![GitHub](https://img.shields.io/badge/GitHub-Automotive--Decision--Intelligence--Platform-181717?style=flat-square&logo=github)](https://github.com/VedantKaulgekar/Automotive-Decision-Intelligence-Platform)
 
 `Python` `Streamlit` `scikit-learn` `XGBoost` `LightGBM` `FAISS` `sentence-transformers` `Groq` `Plotly` `ReportLab`
 
 ---
 
-### 🌾 [AgriTech Platform](https://github.com/VedantKaulgekar/AgriTech-Platform)
-An AI-powered agricultural technology platform built to assist farmers with data-driven insights.
+## 🔬 Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [AgriTech Platform](https://github.com/VedantKaulgekar/AgriTech-Platform)
+AI-powered agricultural intelligence platform — data-driven insights for farmers who can't afford to be wrong.
+- Crop and soil analysis with ML-driven recommendations
+- Interactive dashboards for field-level decision support
+- Built for real-world data availability constraints
 
 `Python` `Jupyter Notebook` `HTML`
 
----
+</td>
+<td width="50%" valign="top">
 
+### More coming soon
+Currently designing the next system. Check back or watch the repo.
 
-## 🛠️ Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-### ML / AI
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square&logo=xgboost&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-
-### Data & Visualization
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white)
-
-### Tools & Platforms
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+</td>
+</tr>
+</table>
 
 ---
 
-## 📫 Let's Connect
+## ⚙️ Tech Stack
 
-I'm always open to interesting conversations, collaborations, or opportunities!
+```python
+LANGUAGES     = ["Python", "PHP", "HTML5", "SQL"]
 
-- 💼 **LinkedIn:** [linkedin.com/in/vedant-kaulgekar](https://linkedin.com/in/vedant-kaulgekar)
-- 📧 **Email:** *vedantkaulgekar.work@gmail.com*
-- 📍 **Location:** Pune, Maharashtra, India
+ML_AI         = ["scikit-learn", "XGBoost", "LightGBM", "PyTorch",
+                 "FAISS", "sentence-transformers", "LangChain"]
+
+DATA          = ["Pandas", "NumPy", "Plotly", "Matplotlib"]
+
+LLM_INFRA     = ["RAG pipelines", "Groq API", "vector search",
+                 "document-grounded Q&A"]
+
+BACKEND       = ["Streamlit", "pywebview", "ReportLab"]
+
+TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
+```
+
+---
+
+## 🎯 Interests
+
+- 🤖 **AutoML & MLOps** — production-grade pipelines, not just notebooks
+- 🔍 **RAG & LLM applications** — grounded, auditable, deployable
+- 📊 **Decision intelligence** — uncertainty quantification, sensitivity analysis
+- 🌱 **AI for real-world impact** — sustainability, agriculture, industry
+
+---
+
+## 📫 Connect
+
+- 💼 [linkedin.com/in/vedant-kaulgekar](https://linkedin.com/in/vedant-kaulgekar)
+- 📧 [vedantkaulgekar.work@gmail.com](mailto:vedantkaulgekar.work@gmail.com)
+- 📍 Pune, Maharashtra, India
+- 📬 **Open to internships, collaborations, and interesting problems**
 
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=80&section=footer" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2744,100:0d1117&height=80&section=footer" width="100%"/>
+
+*"Building intelligent systems that solve real-world problems."*
+
 </div>

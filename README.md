@@ -6,7 +6,10 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vedant--kaulgekar-0a66c2?style=flat-square&logo=linkedin)](https://linkedin.com/in/vedant-kaulgekar)
 [![GitHub](https://img.shields.io/badge/GitHub-VedantKaulgekar-181717?style=flat-square&logo=github)](https://github.com/VedantKaulgekar)
+[![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-VedantKaulgekar-ff9d00?style=flat-square)](https://huggingface.co/VedantKaulgekar)
 [![Email](https://img.shields.io/badge/Email-vedantkaulgekar.work@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vedantkaulgekar.work@gmail.com)
+![Profile views](https://komarev.com/ghpvc/?username=VedantKaulgekar&color=4a9eff&style=flat-square&label=Profile+Views)
+
 
 *3rd-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
 

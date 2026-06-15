@@ -6,7 +6,9 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vedant--kaulgekar-0a66c2?style=flat-square&logo=linkedin)](https://linkedin.com/in/vedant-kaulgekar)
 [![GitHub](https://img.shields.io/badge/GitHub-VedantKaulgekar-181717?style=flat-square&logo=github)](https://github.com/VedantKaulgekar)
+[![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-VedantKaulgekar-ff9d00?style=flat-square)](https://huggingface.co/VedantKaulgekar)
 [![Email](https://img.shields.io/badge/Email-vedantkaulgekar.work@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vedantkaulgekar.work@gmail.com)
+![Profile views](https://komarev.com/ghpvc/?username=VedantKaulgekar&color=4a9eff&style=flat-square&label=Profile+Views)
 
 *3rd-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
 
@@ -58,6 +60,18 @@ An end-to-end AI platform for **automotive factory sustainability analytics** �
 <tr>
 <td width="50%" valign="top">
 
+### [CreditMaze](https://github.com/VedantKaulgekar/CreditMaze)
+OpenEnv-compatible RL benchmark for evaluating credit assignment in long-horizon LLM agent tasks. Submitted to the **Meta PyTorch OpenEnv Hackathon**.
+- Simulates research synthesis, debugging, resource allocation, and triage
+- Hidden pivotal steps + decoy steps to isolate causal credit
+- Normalized graders measure whether agents credit the actions that actually mattered
+- Algorithm-agnostic: compatible with GRPO, PPO, iStar, HCAPO
+
+`Python` `PyTorch` `OpenEnv` `FastAPI` `Docker` `RL`
+
+</td>
+<td width="50%" valign="top">
+
 ### [AgriTech Platform](https://github.com/VedantKaulgekar/AgriTech-Platform)
 AI-powered agricultural intelligence platform — data-driven insights for farmers who can't afford to be wrong.
 - Crop and soil analysis with ML-driven recommendations
@@ -65,12 +79,6 @@ AI-powered agricultural intelligence platform — data-driven insights for farme
 - Built for real-world data availability constraints
 
 `Python` `Jupyter Notebook` `HTML`
-
-</td>
-<td width="50%" valign="top">
-
-### More coming soon
-Currently designing the next system. Check back or watch the repo.
 
 </td>
 </tr>
@@ -91,7 +99,9 @@ DATA          = ["Pandas", "NumPy", "Plotly", "Matplotlib"]
 LLM_INFRA     = ["RAG pipelines", "Groq API", "vector search",
                  "document-grounded Q&A"]
 
-BACKEND       = ["Streamlit", "pywebview", "ReportLab"]
+RL            = ["OpenEnv", "GRPO", "PPO", "credit assignment", "LLM agents"]
+
+BACKEND       = ["FastAPI", "Streamlit", "pywebview", "ReportLab", "Docker"]
 
 TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 ```
@@ -102,6 +112,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 - 🤖 **AutoML & MLOps** — production-grade pipelines, not just notebooks
 - 🔍 **RAG & LLM applications** — grounded, auditable, deployable
+- 🧠 **RL & agent evaluation** — credit assignment, long-horizon reasoning
 - 📊 **Decision intelligence** — uncertainty quantification, sensitivity analysis
 - 🌱 **AI for real-world impact** — sustainability, agriculture, industry
 

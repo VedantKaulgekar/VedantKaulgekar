@@ -73,7 +73,7 @@ AI-powered agricultural intelligence platform — data-driven insights for farme
 <td width="50%" valign="top">
 
 ### More coming soon
-Currently designing the next system. Check back or watch the repo.
+Currently designing the next system.
 
 </td>
 </tr>

@@ -27,13 +27,13 @@ An end-to-end AI platform for **automotive factory sustainability analytics** �
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  AutoML Pipeline  →  7 candidate models trained in parallel      │
-│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)             │
+│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)              │
 │  via ThreadPoolExecutor — best model selected automatically      │
 │                                                                  │
 │  Monte Carlo UQ  →  real sensor noise from datasheets            │
-│  propagated through trained models → P5 / P95 output bounds     │
+│  propagated through trained models → P5 / P95 output bounds      │
 │                                                                  │
-│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)      │
+│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)       │
 │  grounded strictly in uploaded policy documents                  │
 │                                                                  │
 │  Dashboard  →  Streamlit + Plotly · sensitivity tornado plots    │
@@ -122,7 +122,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=VedantKaulgekar&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4a9eff&icon_color=4a9eff&text_color=c9d1d9&count_private=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=VedantKaulgekar&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4a9eff&icon_color=4a9eff&text_color=c9d1d9&include_all_commits=true&count_private=true" />
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VedantKaulgekar&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4a9eff&text_color=c9d1d9&langs_count=8" />
 
 </div>

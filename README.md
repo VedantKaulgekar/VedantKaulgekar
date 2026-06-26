@@ -110,7 +110,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 ## 🎯 Interests
 
-- 🤖 **AutoML & MLOps** — production-grade pipelines, not just notebooks
+- 🤖 **AutoML & MLOps** — production-grade pipelines
 - 🔍 **RAG & LLM applications** — grounded, auditable, deployable
 - 🧠 **RL & agent evaluation** — credit assignment, long-horizon reasoning
 - 📊 **Decision intelligence** — uncertainty quantification, sensitivity analysis

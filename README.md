@@ -12,7 +12,7 @@
 
 *3rd-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
 
-*Where machine learning, data science, and software engineering converge.*
+*Where Machine Learning, Data Science, and Software Engineering converge.*
 
 </div>
 

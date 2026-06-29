@@ -149,10 +149,10 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 ## 📫 Connect
 
-- 💼 [linkedin.com/in/vedant-kaulgekar](https://linkedin.com/in/vedant-kaulgekar)
-- 📧 [vedantkaulgekar.work@gmail.com](mailto:vedantkaulgekar.work@gmail.com)
-- 📍 Pune, Maharashtra, India
-- 📬 **Open to internships, collaborations, and interesting problems**
+- 💼 **LinkedIn**- [linkedin.com/in/vedant-kaulgekar](https://linkedin.com/in/vedant-kaulgekar)
+- 📧 **Email**- [vedantkaulgekar.work@gmail.com](mailto:vedantkaulgekar.work@gmail.com)
+- 📍 **Address**- Pune, Maharashtra, India
+📬 **Open to internships, collaborations, and interesting problems**
 
 ---
 

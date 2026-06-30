@@ -152,7 +152,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 - 💼 **LinkedIn**- [linkedin.com/in/vedant-kaulgekar](https://linkedin.com/in/vedant-kaulgekar)
 - 📧 **Email**- [vedantkaulgekar.work@gmail.com](mailto:vedantkaulgekar.work@gmail.com)
 - 📍 **Address**- Pune, Maharashtra, India
-- 📬 **Open to internships, collaborations, and interesting problems**
+- 📬 **Open to internships, collaborations, and solving interesting problems**
 
 ---
 

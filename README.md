@@ -89,7 +89,7 @@ AI-powered agricultural intelligence platform — data-driven insights for farme
 ## ⚙️ Tech Stack
 
 ```python
-LANGUAGES     = ["Python", "PHP", "HTML5", "SQL", C++]
+LANGUAGES     = ["Python", "PHP", "HTML5", "SQL", "C++"]
 
 ML_AI         = ["scikit-learn", "XGBoost", "LightGBM", "PyTorch",
                  "FAISS", "sentence-transformers", "LangChain"]

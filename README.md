@@ -114,7 +114,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 - 🔍 **RAG & LLM applications** — grounded, auditable, deployable
 - 🧠 **RL & agent evaluation** — credit assignment, long-horizon reasoning
 - 📊 **Decision intelligence** — uncertainty quantification, sensitivity analysis
-- 🌱 **AI for real-world impact** — sustainability, agriculture, industries
+- 🌱 **AI for real-world impact** — sustainability, agriculture, industry
 
 ---
 

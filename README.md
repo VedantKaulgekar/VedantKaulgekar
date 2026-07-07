@@ -12,7 +12,7 @@
 
 *3rd-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
 
-*Where Machine Learning, Data Science, and Software Engineering converge.*
+*Where machine learning, data science, and software engineering converge.*
 
 </div>
 
@@ -27,13 +27,13 @@ An end-to-end AI platform for **automotive factory sustainability analytics** �
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  AutoML Pipeline  →  7 candidate models trained in parallel      │
-│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)              │
+│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)             │
 │  via ThreadPoolExecutor — best model selected automatically      │
 │                                                                  │
 │  Monte Carlo UQ  →  real sensor noise from datasheets            │
-│  propagated through trained models → P5 / P95 output bounds      │
+│  propagated through trained models → P5 / P95 output bounds     │
 │                                                                  │
-│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)       │
+│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)      │
 │  grounded strictly in uploaded policy documents                  │
 │                                                                  │
 │  Dashboard  →  Streamlit + Plotly · sensitivity tornado plots    │
@@ -89,7 +89,7 @@ AI-powered agricultural intelligence platform — data-driven insights for farme
 ## ⚙️ Tech Stack
 
 ```python
-LANGUAGES     = ["Python", "PHP", "HTML5", "SQL", "C++"]
+LANGUAGES     = ["Python", "PHP", "HTML5", "SQL"]
 
 ML_AI         = ["scikit-learn", "XGBoost", "LightGBM", "PyTorch",
                  "FAISS", "sentence-transformers", "LangChain"]
@@ -110,7 +110,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 ## 🎯 Interests
 
-- 🤖 **AutoML & MLOps** — production-grade pipelines
+- 🤖 **AutoML & MLOps** — production-grade pipelines, not just notebooks
 - 🔍 **RAG & LLM applications** — grounded, auditable, deployable
 - 🧠 **RL & agent evaluation** — credit assignment, long-horizon reasoning
 - 📊 **Decision intelligence** — uncertainty quantification, sensitivity analysis
@@ -129,7 +129,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=VedantKaulgekar&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4a9eff&ring=4a9eff&fire=ff6b35&currStreakLabel=4a9eff&dates=8b949e" />
+<img src="https://streak-stats.demolab.com?user=VedantKaulgekar&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4a9eff&ring=4a9eff&fire=ff6b35&currStreakLabel=4a9eff&dates=8b949e" />
 
 </div>
 
@@ -149,10 +149,10 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 ## 📫 Connect
 
-- 💼 **LinkedIn**- [linkedin.com/in/vedant-kaulgekar](https://linkedin.com/in/vedant-kaulgekar)
-- 📧 **Email**- [vedantkaulgekar.work@gmail.com](mailto:vedantkaulgekar.work@gmail.com)
-- 📍 **Address**- Pune, Maharashtra, India
-- 📬 **Open to internships, collaborations, and solving interesting problems**
+- 💼 [linkedin.com/in/vedant-kaulgekar](https://linkedin.com/in/vedant-kaulgekar)
+- 📧 [vedantkaulgekar.work@gmail.com](mailto:vedantkaulgekar.work@gmail.com)
+- 📍 Pune, Maharashtra, India
+- 📬 **Open to internships, collaborations, and interesting problems**
 
 ---
 

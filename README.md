@@ -120,7 +120,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 ## 🤖 Robotics — ABU Robocon 2026
 
-**Team Vulcans · Software Lead (Robot 2)**
+**Team Vulcans**
 
 Built the complete ROS2 runtime and GPU perception stack for R2 — the autonomous robot responsible for KFS collection (Zone 2) and Tic-Tac-Toe placement (Zone 3) in the *Kung Fu Quest* theme.
 

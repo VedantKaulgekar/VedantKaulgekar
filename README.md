@@ -27,13 +27,13 @@ An end-to-end AI platform for **automotive factory sustainability analytics** �
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  AutoML Pipeline  →  7 candidate models trained in parallel      │
-│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)              │
+│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)             │
 │  via ThreadPoolExecutor — best model selected automatically      │
 │                                                                  │
 │  Monte Carlo UQ  →  real sensor noise from datasheets            │
-│  propagated through trained models → P5 / P95 output bounds      │
+│  propagated through trained models → P5 / P95 output bounds     │
 │                                                                  │
-│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)       │
+│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)      │
 │  grounded strictly in uploaded policy documents                  │
 │                                                                  │
 │  Dashboard  →  Streamlit + Plotly · sensitivity tornado plots    │
@@ -115,6 +115,39 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 - 🧠 **RL & agent evaluation** — credit assignment, long-horizon reasoning
 - 📊 **Decision intelligence** — uncertainty quantification, sensitivity analysis
 - 🌱 **AI for real-world impact** — sustainability, agriculture, industry
+
+---
+
+## 🤖 Robotics — ABU Robocon 2026
+
+**Team Vulcans · Software Lead (Robot 2)**
+
+Built the complete ROS2 runtime and GPU perception stack for R2 — the autonomous robot responsible for KFS collection (Zone 2) and Tic-Tac-Toe placement (Zone 3) in the *Kung Fu Quest* theme.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  8 ROS2 nodes running simultaneously on Jetson Orin Nano 8GB        │
+│                                                                     │
+│  communication_node  (C++)  — Binary ESP-1 serial @ 200 Hz TX      │
+│  hardware_interface_node (Py) — ASCII ESP-2/3 bridge + E-stop chain │
+│  climb_action_node   (Py)   — rclpy action server, non-blocking FSM │
+│  sensor_fusion_node  (C++)  — Encoder + IMU → RobotPose @ 100 Hz   │
+│  safety_monitor_node (C++)  — 50 Hz E-stop watchdog                 │
+│  state_machine_node  (C++)  — Global FSM @ 20 Hz                    │
+│  perception_node     (C++)  — CUDA kernels + TensorRT @ ~15 Hz      │
+│  planner_node        (C++)  — A* Zone 2 + RL Zone 3 @ 20 Hz        │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**My contribution — ROS2 architecture & GPU perception:**
+- Designed and implemented all 8 ROS2 nodes and the custom `r2_msgs` package (strongly-typed messages + `ClimbAction` action interface)
+- Built `hardware_interface_node` — ASCII bridge to ESP-2/3, routing all actuator commands through the ROS2 graph and wiring them into the E-stop chain (previously unreachable by the safety monitor)
+- Built `climb_action_node` — non-blocking `rclpy.action` server replacing blocking `time.sleep()` climb sequences; executor never stalls
+- Implemented `perception_node` GPU pipeline: CUDA preprocessing kernels (sm_87), TensorRT FP16 YOLOv11s-seg for Zone 1 spearhead detection, YOLOv8 + ByteTrack + CUDA belief map for Zone 2, ArUco + HSV classifier for Zone 3 rack detection
+
+[![GitHub](https://img.shields.io/badge/GitHub-ABU--Robocon--2026-181717?style=flat-square&logo=github)](https://github.com/VedantKaulgekar/ABU-Robocon-2026)
+
+`ROS2 Humble` `C++17` `Python` `CUDA` `TensorRT` `YOLOv11s-seg` `YOLOv8` `OpenCV` `Jetson Orin Nano` `rclpy.action`
 
 ---
 

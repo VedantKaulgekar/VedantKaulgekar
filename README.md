@@ -10,7 +10,7 @@
 [![Email](https://img.shields.io/badge/Email-vedantkaulgekar.work@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vedantkaulgekar.work@gmail.com)
 ![Profile views](https://komarev.com/ghpvc/?username=VedantKaulgekar&color=4a9eff&style=flat-square&label=Profile+Views)
 
-*3rd-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
+*4th-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
 
 *Where machine learning, data science, and software engineering converge.*
 

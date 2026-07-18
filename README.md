@@ -27,13 +27,13 @@ An end-to-end AI platform for **automotive factory sustainability analytics** �
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  AutoML Pipeline  →  7 candidate models trained in parallel      │
-│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)             │
+│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)              │
 │  via ThreadPoolExecutor — best model selected automatically      │
 │                                                                  │
 │  Monte Carlo UQ  →  real sensor noise from datasheets            │
-│  propagated through trained models → P5 / P95 output bounds     │
+│  propagated through trained models → P5 / P95 output bounds      │
 │                                                                  │
-│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)      │
+│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)       │
 │  grounded strictly in uploaded policy documents                  │
 │                                                                  │
 │  Dashboard  →  Streamlit + Plotly · sensitivity tornado plots    │
@@ -128,14 +128,14 @@ Built the complete ROS2 runtime and GPU perception stack for R2 — the autonomo
 ┌─────────────────────────────────────────────────────────────────────┐
 │  8 ROS2 nodes running simultaneously on Jetson Orin Nano 8GB        │
 │                                                                     │
-│  communication_node  (C++)  — Binary ESP-1 serial @ 200 Hz TX      │
+│  communication_node  (C++)  — Binary ESP-1 serial @ 200 Hz TX       │
 │  hardware_interface_node (Py) — ASCII ESP-2/3 bridge + E-stop chain │
 │  climb_action_node   (Py)   — rclpy action server, non-blocking FSM │
-│  sensor_fusion_node  (C++)  — Encoder + IMU → RobotPose @ 100 Hz   │
+│  sensor_fusion_node  (C++)  — Encoder + IMU → RobotPose @ 100 Hz    │
 │  safety_monitor_node (C++)  — 50 Hz E-stop watchdog                 │
 │  state_machine_node  (C++)  — Global FSM @ 20 Hz                    │
 │  perception_node     (C++)  — CUDA kernels + TensorRT @ ~15 Hz      │
-│  planner_node        (C++)  — A* Zone 2 + RL Zone 3 @ 20 Hz        │
+│  planner_node        (C++)  — A* Zone 2 + RL Zone 3 @ 20 Hz         │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 

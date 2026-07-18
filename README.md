@@ -11,7 +11,6 @@
 ![Profile views](https://komarev.com/ghpvc/?username=VedantKaulgekar&color=4a9eff&style=flat-square&label=Profile+Views)
 
 *3rd-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
-*4th-year Engineering student, Pune · Building end-to-end AI systems that go beyond the notebook.*
 
 *Where machine learning, data science, and software engineering converge.*
 
@@ -28,13 +27,13 @@ An end-to-end AI platform for **automotive factory sustainability analytics** �
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  AutoML Pipeline  →  7 candidate models trained in parallel      │
-│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)              │
+│  (RandomForest · XGBoost · LightGBM · MLP + 3 more)             │
 │  via ThreadPoolExecutor — best model selected automatically      │
 │                                                                  │
 │  Monte Carlo UQ  →  real sensor noise from datasheets            │
-│  propagated through trained models → P5 / P95 output bounds      │
+│  propagated through trained models → P5 / P95 output bounds     │
 │                                                                  │
-│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)       │
+│  RAG Q&A  →  FAISS vector search + Groq LLM (llama-3.1-8b)      │
 │  grounded strictly in uploaded policy documents                  │
 │                                                                  │
 │  Dashboard  →  Streamlit + Plotly · sensitivity tornado plots    │
@@ -121,7 +120,7 @@ TOOLS         = ["Git", "GitHub", "Jupyter", "VS Code"]
 
 ## 🤖 Robotics — ABU Robocon 2026
 
-**Team Vulcans**
+**Team Vulcans · Software Lead (Robot 2)**
 
 Built the complete ROS2 runtime and GPU perception stack for R2 — the autonomous robot responsible for KFS collection (Zone 2) and Tic-Tac-Toe placement (Zone 3) in the *Kung Fu Quest* theme.
 
@@ -129,14 +128,14 @@ Built the complete ROS2 runtime and GPU perception stack for R2 — the autonomo
 ┌─────────────────────────────────────────────────────────────────────┐
 │  8 ROS2 nodes running simultaneously on Jetson Orin Nano 8GB        │
 │                                                                     │
-│  communication_node  (C++)  — Binary ESP-1 serial @ 200 Hz TX       │
+│  communication_node  (C++)  — Binary ESP-1 serial @ 200 Hz TX      │
 │  hardware_interface_node (Py) — ASCII ESP-2/3 bridge + E-stop chain │
 │  climb_action_node   (Py)   — rclpy action server, non-blocking FSM │
-│  sensor_fusion_node  (C++)  — Encoder + IMU → RobotPose @ 100 Hz    │
+│  sensor_fusion_node  (C++)  — Encoder + IMU → RobotPose @ 100 Hz   │
 │  safety_monitor_node (C++)  — 50 Hz E-stop watchdog                 │
 │  state_machine_node  (C++)  — Global FSM @ 20 Hz                    │
 │  perception_node     (C++)  — CUDA kernels + TensorRT @ ~15 Hz      │
-│  planner_node        (C++)  — A* Zone 2 + RL Zone 3 @ 20 Hz         │
+│  planner_node        (C++)  — A* Zone 2 + RL Zone 3 @ 20 Hz        │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -149,29 +148,6 @@ Built the complete ROS2 runtime and GPU perception stack for R2 — the autonomo
 [![GitHub](https://img.shields.io/badge/GitHub-ABU--Robocon--2026-181717?style=flat-square&logo=github)](https://github.com/VedantKaulgekar/ABU-Robocon-2026)
 
 `ROS2 Humble` `C++17` `Python` `CUDA` `TensorRT` `YOLOv11s-seg` `YOLOv8` `OpenCV` `Jetson Orin Nano` `rclpy.action`
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=VedantKaulgekar&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4a9eff&icon_color=4a9eff&text_color=c9d1d9&count_private=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VedantKaulgekar&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4a9eff&text_color=c9d1d9&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=VedantKaulgekar&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4a9eff&ring=4a9eff&fire=ff6b35&currStreakLabel=4a9eff&dates=8b949e" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=VedantKaulgekar&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8" />
-
-</div>
 
 ---
 

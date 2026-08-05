@@ -151,17 +151,10 @@ Built the complete ROS2 runtime and GPU perception stack for R2 — the autonomo
 
 ---
 
-## 📈 GitHub Stats
+## 📈 Contribution Activity
 
-<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=VedantKaulgekar&bg_color=0d1117&color=4a9eff&line=1a3a8f&point=4a9eff&area=true&area_color=1a3a8f&hide_border=true" width="100%"/>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VedantKaulgekar&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=4a9eff&icon_color=4a9eff&text_color=ffffff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VedantKaulgekar&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=4a9eff&text_color=ffffff)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=VedantKaulgekar&theme=dark&hide_border=true&background=0d1117&ring=4a9eff&fire=4a9eff&currStreakLabel=4a9eff)
-
-</div>
 ---
 
 ## 📫 Connect
